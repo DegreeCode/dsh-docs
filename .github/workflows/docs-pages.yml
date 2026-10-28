@@ -54,7 +54,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      pages: read
+      pages: write
     outputs:
       # Empty when Pages is not enabled; the deploy job then stays skipped
       # instead of failing on a site that does not exist yet.
