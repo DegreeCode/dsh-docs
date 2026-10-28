@@ -122,6 +122,7 @@ jobs:
         with:
           name: docs-site
           path: website/.dist
+          include-hidden-files: true
           if-no-files-found: error
           retention-days: 14
 
@@ -130,6 +131,7 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           path: website/.dist
+          include-hidden-files: true
 
   deploy:
     needs: build
