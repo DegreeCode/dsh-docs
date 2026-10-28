@@ -1,0 +1,3016 @@
+{
+  "pages": [
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/index.ko.md",
+      "route": "index.md",
+      "label": "DeepSeek Harness",
+      "sidebar": null,
+      "section": "홈",
+      "order": 0,
+      "sourceAliases": [
+        "docs/user/index.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/guide/index.ko.md",
+      "route": "guide/quickstart.md",
+      "label": "웹 UI 사용",
+      "sidebar": "ko-guide",
+      "section": "가이드",
+      "order": 1,
+      "sourceAliases": [
+        "docs/user/guide",
+        "docs/user/guide/index.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/guide/providers.ko.md",
+      "route": "guide/providers.md",
+      "label": "모델 구성",
+      "sidebar": "ko-guide",
+      "section": "가이드",
+      "order": 2,
+      "sourceAliases": [
+        "docs/user/guide/providers.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/guide/network-proxy.ko.md",
+      "route": "guide/network-proxy.md",
+      "label": "네트워크 프록시",
+      "sidebar": "ko-guide",
+      "section": "가이드",
+      "order": 3,
+      "sourceAliases": [
+        "docs/user/guide/network-proxy.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/guide/public-deployments.ko.md",
+      "route": "guide/public-deployments.md",
+      "label": "공개 배포",
+      "sidebar": "ko-guide",
+      "section": "가이드",
+      "order": 4,
+      "sourceAliases": [
+        "docs/user/guide/public-deployments.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/guide/python-sdk.ko.md",
+      "route": "guide/python-sdk.md",
+      "label": "Python",
+      "sidebar": "ko-guide",
+      "section": "SDK",
+      "order": 1,
+      "sourceAliases": [
+        "docs/user/guide/python-sdk.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/guide/github-review.ko.md",
+      "route": "guide/github-review.md",
+      "label": "GitHub 리뷰 세션",
+      "sidebar": "ko-guide",
+      "section": "자동화",
+      "order": 1,
+      "sourceAliases": [
+        "docs/user/guide/github-review.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/guide/schedule.ko.md",
+      "route": "guide/schedule.md",
+      "label": "세션 리마인더",
+      "sidebar": "ko-guide",
+      "section": "자동화",
+      "order": 2,
+      "sourceAliases": [
+        "docs/user/guide/schedule.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/guide/plugin-market.ko.md",
+      "route": "guide/plugin-market.md",
+      "label": "플러그인 인덱스",
+      "sidebar": "ko-guide",
+      "section": "통합",
+      "order": 2,
+      "sourceAliases": [
+        "docs/user/guide/plugin-market.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/guide/mcp-memory.ko.md",
+      "route": "guide/mcp-memory.md",
+      "label": "메모리 MCP",
+      "sidebar": "ko-guide",
+      "section": "통합",
+      "order": 1,
+      "sourceAliases": [
+        "docs/user/guide/mcp-memory.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/develop/basic/index.ko.md",
+      "route": "develop/basic/index.md",
+      "label": "첫 번째 Harness 플러그인",
+      "sidebar": "ko-develop",
+      "section": "기본",
+      "order": 1,
+      "sourceAliases": [
+        "docs/user/develop/basic",
+        "docs/user/develop/basic/index.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/develop/basic/tool.ko.md",
+      "route": "develop/basic/tool.md",
+      "label": "도구 만들기",
+      "sidebar": "ko-develop",
+      "section": "기본",
+      "order": 2,
+      "sourceAliases": [
+        "docs/user/develop/basic/tool.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/develop/basic/config.ko.md",
+      "route": "develop/basic/config.md",
+      "label": "플러그인 구성",
+      "sidebar": "ko-develop",
+      "section": "기본",
+      "order": 3,
+      "sourceAliases": [
+        "docs/user/develop/basic/config.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/develop/basic/publish.ko.md",
+      "route": "develop/basic/publish.md",
+      "label": "플러그인 패키징과 설치",
+      "sidebar": "ko-develop",
+      "section": "기본",
+      "order": 4,
+      "sourceAliases": [
+        "docs/user/develop/basic/publish.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/develop/framework/index.ko.md",
+      "route": "develop/framework/index.md",
+      "label": "플러그인 생명주기",
+      "sidebar": "ko-develop",
+      "section": "프레임워크",
+      "order": 1,
+      "sourceAliases": [
+        "docs/user/develop/framework",
+        "docs/user/develop/framework/index.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/develop/framework/service.ko.md",
+      "route": "develop/framework/service.md",
+      "label": "서비스와 의존성",
+      "sidebar": "ko-develop",
+      "section": "프레임워크",
+      "order": 2,
+      "sourceAliases": [
+        "docs/user/develop/framework/service.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/develop/framework/events.ko.md",
+      "route": "develop/framework/events.md",
+      "label": "이벤트 시스템",
+      "sidebar": "ko-develop",
+      "section": "프레임워크",
+      "order": 3,
+      "sourceAliases": [
+        "docs/user/develop/framework/events.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/develop/practice/index.ko.md",
+      "route": "develop/practice/index.md",
+      "label": "기능 계층화",
+      "sidebar": "ko-develop",
+      "section": "실전",
+      "order": 1,
+      "sourceAliases": [
+        "docs/user/develop/practice",
+        "docs/user/develop/practice/index.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/develop/practice/llm-adapter.ko.md",
+      "route": "develop/practice/llm-adapter.md",
+      "label": "LLM 어댑터",
+      "sidebar": "ko-develop",
+      "section": "실전",
+      "order": 2,
+      "sourceAliases": [
+        "docs/user/develop/practice/llm-adapter.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/user/develop/practice/dynamic-cordis.ko.md",
+      "route": "develop/practice/dynamic-cordis.md",
+      "label": "영속 Harness 플러그인",
+      "sidebar": "ko-develop",
+      "section": "실전",
+      "order": 3,
+      "sourceAliases": [
+        "docs/user/develop/practice/dynamic-cordis.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cordis-tutorial/index.ko.md",
+      "route": "develop/cordis-tutorial/index.md",
+      "label": "개요",
+      "sidebar": "ko-develop",
+      "section": "Cordis 프레임워크 튜토리얼",
+      "order": 0,
+      "sourceAliases": [
+        "docs/cordis-tutorial",
+        "docs/cordis-tutorial/index.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cordis-tutorial/01-first-plugin.ko.md",
+      "route": "develop/cordis-tutorial/01-first-plugin.md",
+      "label": "1. 첫 플러그인",
+      "sidebar": "ko-develop",
+      "section": "Cordis 프레임워크 튜토리얼",
+      "order": 1,
+      "sourceAliases": [
+        "docs/cordis-tutorial/01-first-plugin.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cordis-tutorial/02-lifecycle-and-effects.ko.md",
+      "route": "develop/cordis-tutorial/02-lifecycle-and-effects.md",
+      "label": "2. 수명 주기와 효과",
+      "sidebar": "ko-develop",
+      "section": "Cordis 프레임워크 튜토리얼",
+      "order": 2,
+      "sourceAliases": [
+        "docs/cordis-tutorial/02-lifecycle-and-effects.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cordis-tutorial/03-services.ko.md",
+      "route": "develop/cordis-tutorial/03-services.md",
+      "label": "3. 서비스",
+      "sidebar": "ko-develop",
+      "section": "Cordis 프레임워크 튜토리얼",
+      "order": 3,
+      "sourceAliases": [
+        "docs/cordis-tutorial/03-services.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cordis-tutorial/04-events.ko.md",
+      "route": "develop/cordis-tutorial/04-events.md",
+      "label": "4. 이벤트",
+      "sidebar": "ko-develop",
+      "section": "Cordis 프레임워크 튜토리얼",
+      "order": 4,
+      "sourceAliases": [
+        "docs/cordis-tutorial/04-events.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cordis-tutorial/05-config.ko.md",
+      "route": "develop/cordis-tutorial/05-config.md",
+      "label": "5. 구성",
+      "sidebar": "ko-develop",
+      "section": "Cordis 프레임워크 튜토리얼",
+      "order": 5,
+      "sourceAliases": [
+        "docs/cordis-tutorial/05-config.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cordis-tutorial/06-composition-and-hmr.ko.md",
+      "route": "develop/cordis-tutorial/06-composition-and-hmr.md",
+      "label": "6. 조합과 HMR",
+      "sidebar": "ko-develop",
+      "section": "Cordis 프레임워크 튜토리얼",
+      "order": 6,
+      "sourceAliases": [
+        "docs/cordis-tutorial/06-composition-and-hmr.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cordis-tutorial/07-into-the-harness.ko.md",
+      "route": "develop/cordis-tutorial/07-into-the-harness.md",
+      "label": "7. 하네스로 들어가기",
+      "sidebar": "ko-develop",
+      "section": "Cordis 프레임워크 튜토리얼",
+      "order": 7,
+      "sourceAliases": [
+        "docs/cordis-tutorial/07-into-the-harness.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cordis-primer.ko.md",
+      "route": "reference/cordis-primer.md",
+      "label": "Cordis 입문서",
+      "sidebar": "ko-reference",
+      "section": "개념",
+      "order": 1,
+      "sourceAliases": [
+        "docs/cordis-primer.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/README.ko.md",
+      "route": "reference/subsystems/index.md",
+      "label": "서브시스템",
+      "sidebar": "ko-reference",
+      "section": "개요",
+      "order": 0,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems",
+        "docs/subsystems/README.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/core.ko.md",
+      "route": "reference/subsystems/core.md",
+      "label": "코어",
+      "sidebar": "ko-reference",
+      "section": "코어와 스코프",
+      "order": 0,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/core.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/scope.ko.md",
+      "route": "reference/subsystems/scope.md",
+      "label": "스코프",
+      "sidebar": "ko-reference",
+      "section": "코어와 스코프",
+      "order": 1,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/scope.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/session.ko.md",
+      "route": "reference/subsystems/session.md",
+      "label": "세션",
+      "sidebar": "ko-reference",
+      "section": "세션과 영속성",
+      "order": 0,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/session.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/session-query.ko.md",
+      "route": "reference/subsystems/session-query.md",
+      "label": "세션 쿼리",
+      "sidebar": "ko-reference",
+      "section": "세션과 영속성",
+      "order": 1,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/session-query.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/session-reference.ko.md",
+      "route": "reference/subsystems/session-reference.md",
+      "label": "세션 참조",
+      "sidebar": "ko-reference",
+      "section": "세션과 영속성",
+      "order": 2,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/session-reference.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/session-title.ko.md",
+      "route": "reference/subsystems/session-title.md",
+      "label": "세션 제목",
+      "sidebar": "ko-reference",
+      "section": "세션과 영속성",
+      "order": 3,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/session-title.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/session-projection.ko.md",
+      "route": "reference/subsystems/session-projection.md",
+      "label": "세션 프로젝션",
+      "sidebar": "ko-reference",
+      "section": "세션과 영속성",
+      "order": 4,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/session-projection.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/persistence.ko.md",
+      "route": "reference/subsystems/persistence.md",
+      "label": "세션 영속성",
+      "sidebar": "ko-reference",
+      "section": "세션과 영속성",
+      "order": 5,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/persistence.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/spill.ko.md",
+      "route": "reference/subsystems/spill.md",
+      "label": "스필 저장소",
+      "sidebar": "ko-reference",
+      "section": "세션과 영속성",
+      "order": 6,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/spill.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/session-telemetry.ko.md",
+      "route": "reference/subsystems/session-telemetry.md",
+      "label": "세션 텔레메트리",
+      "sidebar": "ko-reference",
+      "section": "세션과 영속성",
+      "order": 7,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/session-telemetry.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/llm-streaming.ko.md",
+      "route": "reference/subsystems/llm-streaming.md",
+      "label": "LLM 스트리밍",
+      "sidebar": "ko-reference",
+      "section": "모델과 컨텍스트",
+      "order": 0,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/llm-streaming.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/token-meter.ko.md",
+      "route": "reference/subsystems/token-meter.md",
+      "label": "토큰 미터",
+      "sidebar": "ko-reference",
+      "section": "모델과 컨텍스트",
+      "order": 1,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/token-meter.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/system-prompt.ko.md",
+      "route": "reference/subsystems/system-prompt.md",
+      "label": "시스템 프롬프트",
+      "sidebar": "ko-reference",
+      "section": "모델과 컨텍스트",
+      "order": 2,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/system-prompt.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/compaction.ko.md",
+      "route": "reference/subsystems/compaction.md",
+      "label": "압축",
+      "sidebar": "ko-reference",
+      "section": "모델과 컨텍스트",
+      "order": 3,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/compaction.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/tools.ko.md",
+      "route": "reference/subsystems/tools.md",
+      "label": "도구",
+      "sidebar": "ko-reference",
+      "section": "실행과 도구",
+      "order": 0,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/tools.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/shell.ko.md",
+      "route": "reference/subsystems/shell.md",
+      "label": "셸 실행",
+      "sidebar": "ko-reference",
+      "section": "실행과 도구",
+      "order": 1,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/shell.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/subprocess.ko.md",
+      "route": "reference/subsystems/subprocess.md",
+      "label": "하위 프로세스",
+      "sidebar": "ko-reference",
+      "section": "실행과 도구",
+      "order": 2,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/subprocess.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/terminal.ko.md",
+      "route": "reference/subsystems/terminal.md",
+      "label": "PTY 세션",
+      "sidebar": "ko-reference",
+      "section": "실행과 도구",
+      "order": 3,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/terminal.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/jobs.ko.md",
+      "route": "reference/subsystems/jobs.md",
+      "label": "백그라운드 작업",
+      "sidebar": "ko-reference",
+      "section": "실행과 도구",
+      "order": 4,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/jobs.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/filesystem.ko.md",
+      "route": "reference/subsystems/filesystem.md",
+      "label": "파일 시스템",
+      "sidebar": "ko-reference",
+      "section": "실행과 도구",
+      "order": 5,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/filesystem.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/lsp.ko.md",
+      "route": "reference/subsystems/lsp.md",
+      "label": "LSP 내비게이션",
+      "sidebar": "ko-reference",
+      "section": "실행과 도구",
+      "order": 6,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/lsp.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/ptc-runtime.ko.md",
+      "route": "reference/subsystems/ptc-runtime.md",
+      "label": "PTC 런타임",
+      "sidebar": "ko-reference",
+      "section": "실행과 도구",
+      "order": 7,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/ptc-runtime.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/web.ko.md",
+      "route": "reference/subsystems/web.md",
+      "label": "웹 접근",
+      "sidebar": "ko-reference",
+      "section": "실행과 도구",
+      "order": 8,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/web.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/skills.ko.md",
+      "route": "reference/subsystems/skills.md",
+      "label": "스킬",
+      "sidebar": "ko-reference",
+      "section": "실행과 도구",
+      "order": 9,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/skills.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/workflow.ko.md",
+      "route": "reference/subsystems/workflow.md",
+      "label": "워크플로",
+      "sidebar": "ko-reference",
+      "section": "실행과 도구",
+      "order": 10,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/workflow.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/subagent.ko.md",
+      "route": "reference/subsystems/subagent.md",
+      "label": "서브에이전트",
+      "sidebar": "ko-reference",
+      "section": "실행과 도구",
+      "order": 11,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/subagent.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/approval.ko.md",
+      "route": "reference/subsystems/approval.md",
+      "label": "승인",
+      "sidebar": "ko-reference",
+      "section": "정책과 상호작용",
+      "order": 0,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/approval.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/permission-presets.ko.md",
+      "route": "reference/subsystems/permission-presets.md",
+      "label": "권한 프리셋",
+      "sidebar": "ko-reference",
+      "section": "정책과 상호작용",
+      "order": 1,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/permission-presets.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/sandbox.ko.md",
+      "route": "reference/subsystems/sandbox.md",
+      "label": "샌드박스",
+      "sidebar": "ko-reference",
+      "section": "정책과 상호작용",
+      "order": 2,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/sandbox.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/plan.ko.md",
+      "route": "reference/subsystems/plan.md",
+      "label": "계획 모드",
+      "sidebar": "ko-reference",
+      "section": "정책과 상호작용",
+      "order": 3,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/plan.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/user-questions.ko.md",
+      "route": "reference/subsystems/user-questions.md",
+      "label": "사용자 상호작용",
+      "sidebar": "ko-reference",
+      "section": "정책과 상호작용",
+      "order": 4,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/user-questions.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/commands.ko.md",
+      "route": "reference/subsystems/commands.md",
+      "label": "사람 명령",
+      "sidebar": "ko-reference",
+      "section": "정책과 상호작용",
+      "order": 5,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/commands.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/goal.ko.md",
+      "route": "reference/subsystems/goal.md",
+      "label": "목표",
+      "sidebar": "ko-reference",
+      "section": "정책과 상호작용",
+      "order": 6,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/goal.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/schedule.ko.md",
+      "route": "reference/subsystems/schedule.md",
+      "label": "예약",
+      "sidebar": "ko-reference",
+      "section": "정책과 상호작용",
+      "order": 7,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/schedule.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/web-server.ko.md",
+      "route": "reference/subsystems/web-server.md",
+      "label": "HTTP 서버",
+      "sidebar": "ko-reference",
+      "section": "플랫폼과 접근",
+      "order": 0,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/web-server.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/web-client.ko.md",
+      "route": "reference/subsystems/web-client.md",
+      "label": "Web 클라이언트",
+      "sidebar": "ko-reference",
+      "section": "플랫폼과 접근",
+      "order": 1,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/web-client.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/client-modules.ko.md",
+      "route": "reference/subsystems/client-modules.md",
+      "label": "클라이언트 모듈",
+      "sidebar": "ko-reference",
+      "section": "플랫폼과 접근",
+      "order": 2,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/client-modules.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/slots.ko.md",
+      "route": "reference/subsystems/slots.md",
+      "label": "클라이언트 슬롯",
+      "sidebar": "ko-reference",
+      "section": "플랫폼과 접근",
+      "order": 3,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/slots.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/client-resources.ko.md",
+      "route": "reference/subsystems/client-resources.md",
+      "label": "클라이언트 리소스",
+      "sidebar": "ko-reference",
+      "section": "플랫폼과 접근",
+      "order": 4,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/client-resources.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/sidebar-right.ko.md",
+      "route": "reference/subsystems/sidebar-right.md",
+      "label": "오른쪽 사이드바",
+      "sidebar": "ko-reference",
+      "section": "플랫폼과 접근",
+      "order": 5,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/sidebar-right.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/conversation.ko.md",
+      "route": "reference/subsystems/conversation.md",
+      "label": "대화 조립",
+      "sidebar": "ko-reference",
+      "section": "플랫폼과 접근",
+      "order": 6,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/conversation.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/typert.ko.md",
+      "route": "reference/subsystems/typert.md",
+      "label": "Typert",
+      "sidebar": "ko-reference",
+      "section": "플랫폼과 접근",
+      "order": 7,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/typert.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/storage.ko.md",
+      "route": "reference/subsystems/storage.md",
+      "label": "저장소",
+      "sidebar": "ko-reference",
+      "section": "플랫폼과 접근",
+      "order": 8,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/storage.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/workspace.ko.md",
+      "route": "reference/subsystems/workspace.md",
+      "label": "워크스페이스",
+      "sidebar": "ko-reference",
+      "section": "플랫폼과 접근",
+      "order": 9,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/workspace.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/settings.ko.md",
+      "route": "reference/subsystems/settings.md",
+      "label": "사용자 설정",
+      "sidebar": "ko-reference",
+      "section": "플랫폼과 접근",
+      "order": 10,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/settings.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/subsystems/credentials.ko.md",
+      "route": "reference/subsystems/credentials.md",
+      "label": "자격 증명",
+      "sidebar": "ko-reference",
+      "section": "플랫폼과 접근",
+      "order": 11,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/credentials.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/architecture.ko.md",
+      "route": "reference/index.md",
+      "label": "아키텍처",
+      "sidebar": "ko-reference",
+      "section": "개념",
+      "order": 0,
+      "sourceAliases": [
+        "docs/architecture.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/capability-seams.ko.md",
+      "route": "reference/capability-seams.md",
+      "label": "기능 seam",
+      "sidebar": "ko-reference",
+      "section": "개념",
+      "order": 2,
+      "sourceAliases": [
+        "docs/capability-seams.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/agent-lifecycle.ko.md",
+      "route": "reference/agent-lifecycle.md",
+      "label": "에이전트 수명 주기",
+      "sidebar": "ko-reference",
+      "section": "개념",
+      "order": 3,
+      "sourceAliases": [
+        "docs/agent-lifecycle.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/tool-execution-pipeline.ko.md",
+      "route": "reference/tool-execution-pipeline.md",
+      "label": "도구 실행",
+      "sidebar": "ko-reference",
+      "section": "개념",
+      "order": 4,
+      "sourceAliases": [
+        "docs/tool-execution-pipeline.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/api-gateway.ko.md",
+      "route": "reference/api-gateway.md",
+      "label": "API 게이트웨이",
+      "sidebar": "ko-reference",
+      "section": "개념",
+      "order": 5,
+      "sourceAliases": [
+        "docs/api-gateway.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/config-catalog.ko.md",
+      "route": "reference/config-catalog.md",
+      "label": "플러그인 구성 카탈로그",
+      "sidebar": "ko-reference",
+      "section": "생성 참조",
+      "order": 0,
+      "sourceAliases": [
+        "docs/config-catalog.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/tool-catalog.ko.md",
+      "route": "reference/tool-catalog.md",
+      "label": "도구 스키마",
+      "sidebar": "ko-reference",
+      "section": "생성 참조",
+      "order": 1,
+      "sourceAliases": [
+        "docs/tool-catalog.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/persistence-catalog.ko.md",
+      "route": "reference/persistence-catalog.md",
+      "label": "영속성 이벤트",
+      "sidebar": "ko-reference",
+      "section": "생성 참조",
+      "order": 2,
+      "outline": "deep",
+      "sourceAliases": [
+        "docs/persistence-catalog.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/experimental-persistence-catalog.ko.md",
+      "route": "reference/experimental-persistence-catalog.md",
+      "label": "실험적 영속성",
+      "sidebar": "ko-reference",
+      "section": "생성 참조",
+      "order": 3,
+      "sourceAliases": [
+        "docs/experimental-persistence-catalog.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cordis-api/context.ko.md",
+      "route": "reference/cordis-api/context.md",
+      "label": "컨텍스트",
+      "sidebar": "ko-reference",
+      "section": "Cordis 핵심 API",
+      "order": 0,
+      "sourceAliases": [
+        "docs/cordis-api/context.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cordis-api/events.ko.md",
+      "route": "reference/cordis-api/events.md",
+      "label": "이벤트",
+      "sidebar": "ko-reference",
+      "section": "Cordis 핵심 API",
+      "order": 1,
+      "sourceAliases": [
+        "docs/cordis-api/events.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cordis-api/fiber.ko.md",
+      "route": "reference/cordis-api/fiber.md",
+      "label": "Fiber",
+      "sidebar": "ko-reference",
+      "section": "Cordis 핵심 API",
+      "order": 2,
+      "sourceAliases": [
+        "docs/cordis-api/fiber.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cordis-api/registry.ko.md",
+      "route": "reference/cordis-api/registry.md",
+      "label": "레지스트리",
+      "sidebar": "ko-reference",
+      "section": "Cordis 핵심 API",
+      "order": 3,
+      "sourceAliases": [
+        "docs/cordis-api/registry.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cordis-api/service.ko.md",
+      "route": "reference/cordis-api/service.md",
+      "label": "서비스",
+      "sidebar": "ko-reference",
+      "section": "Cordis 핵심 API",
+      "order": 4,
+      "sourceAliases": [
+        "docs/cordis-api/service.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-api/inherited.md",
+      "route": "reference/cordis-api/inherited.md",
+      "label": "Inherited surface",
+      "sidebar": "ko-reference",
+      "section": "Cordis 핵심 API",
+      "order": 5
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cookbook/adding-a-package.ko.md",
+      "route": "reference/cookbook/adding-a-package.md",
+      "label": "패키지 추가",
+      "sidebar": "ko-reference",
+      "section": "개발 매뉴얼",
+      "order": 0,
+      "sourceAliases": [
+        "docs/cookbook/adding-a-package.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cookbook/adding-a-tool.ko.md",
+      "route": "reference/cookbook/adding-a-tool.md",
+      "label": "도구 추가",
+      "sidebar": "ko-reference",
+      "section": "개발 매뉴얼",
+      "order": 1,
+      "sourceAliases": [
+        "docs/cookbook/adding-a-tool.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cookbook/adding-an-llm-adapter.ko.md",
+      "route": "reference/cookbook/adding-an-llm-adapter.md",
+      "label": "LLM 어댑터 추가",
+      "sidebar": "ko-reference",
+      "section": "개발 매뉴얼",
+      "order": 2,
+      "sourceAliases": [
+        "docs/cookbook/adding-an-llm-adapter.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cookbook/adding-a-settings-card.ko.md",
+      "route": "reference/cookbook/adding-a-settings-card.md",
+      "label": "설정 페이지 추가",
+      "sidebar": "ko-reference",
+      "section": "개발 매뉴얼",
+      "order": 3,
+      "sourceAliases": [
+        "docs/cookbook/adding-a-settings-card.zh.md"
+      ]
+    },
+    {
+      "locale": "root",
+      "contentLocale": "ko-KR",
+      "source": "docs/cookbook/extension-cookbook.ko.md",
+      "route": "reference/cookbook/extension-cookbook.md",
+      "label": "확장 패턴",
+      "sidebar": "ko-reference",
+      "section": "개발 매뉴얼",
+      "order": 4,
+      "sourceAliases": [
+        "docs/cookbook/extension-cookbook.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/index.md",
+      "route": "en/index.md",
+      "label": "DeepSeek Harness",
+      "sidebar": null,
+      "section": "Home",
+      "order": 0,
+      "sourceAliases": [
+        "docs/user/index.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/guide/index.md",
+      "route": "en/guide/quickstart.md",
+      "label": "Use the Web UI",
+      "sidebar": "en-guide",
+      "section": "Guide",
+      "order": 1,
+      "sourceAliases": [
+        "docs/user/guide",
+        "docs/user/guide/index.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/guide/providers.md",
+      "route": "en/guide/providers.md",
+      "label": "Configure models",
+      "sidebar": "en-guide",
+      "section": "Guide",
+      "order": 2,
+      "sourceAliases": [
+        "docs/user/guide/providers.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/guide/network-proxy.md",
+      "route": "en/guide/network-proxy.md",
+      "label": "Network proxy",
+      "sidebar": "en-guide",
+      "section": "Guide",
+      "order": 3,
+      "sourceAliases": [
+        "docs/user/guide/network-proxy.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/guide/public-deployments.md",
+      "route": "en/guide/public-deployments.md",
+      "label": "Public deployments",
+      "sidebar": "en-guide",
+      "section": "Guide",
+      "order": 4,
+      "sourceAliases": [
+        "docs/user/guide/public-deployments.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/guide/python-sdk.md",
+      "route": "en/guide/python-sdk.md",
+      "label": "Python",
+      "sidebar": "en-guide",
+      "section": "SDK",
+      "order": 1,
+      "sourceAliases": [
+        "docs/user/guide/python-sdk.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/guide/github-review.md",
+      "route": "en/guide/github-review.md",
+      "label": "GitHub review sessions",
+      "sidebar": "en-guide",
+      "section": "Automation",
+      "order": 1,
+      "sourceAliases": [
+        "docs/user/guide/github-review.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/guide/schedule.md",
+      "route": "en/guide/schedule.md",
+      "label": "Session reminders",
+      "sidebar": "en-guide",
+      "section": "Automation",
+      "order": 2,
+      "sourceAliases": [
+        "docs/user/guide/schedule.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/guide/plugin-market.md",
+      "route": "en/guide/plugin-market.md",
+      "label": "Plugin indexes",
+      "sidebar": "en-guide",
+      "section": "Integrations",
+      "order": 2,
+      "sourceAliases": [
+        "docs/user/guide/plugin-market.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/guide/mcp-memory.md",
+      "route": "en/guide/mcp-memory.md",
+      "label": "Memory MCP",
+      "sidebar": "en-guide",
+      "section": "Integrations",
+      "order": 1,
+      "sourceAliases": [
+        "docs/user/guide/mcp-memory.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/develop/basic/index.md",
+      "route": "en/develop/basic/index.md",
+      "label": "Your first Harness plugin",
+      "sidebar": "en-develop",
+      "section": "Basics",
+      "order": 1,
+      "sourceAliases": [
+        "docs/user/develop/basic",
+        "docs/user/develop/basic/index.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/develop/basic/tool.md",
+      "route": "en/develop/basic/tool.md",
+      "label": "Build a tool",
+      "sidebar": "en-develop",
+      "section": "Basics",
+      "order": 2,
+      "sourceAliases": [
+        "docs/user/develop/basic/tool.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/develop/basic/config.md",
+      "route": "en/develop/basic/config.md",
+      "label": "Plugin configuration",
+      "sidebar": "en-develop",
+      "section": "Basics",
+      "order": 3,
+      "sourceAliases": [
+        "docs/user/develop/basic/config.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/develop/basic/publish.md",
+      "route": "en/develop/basic/publish.md",
+      "label": "Package and install",
+      "sidebar": "en-develop",
+      "section": "Basics",
+      "order": 4,
+      "sourceAliases": [
+        "docs/user/develop/basic/publish.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/develop/framework/index.md",
+      "route": "en/develop/framework/index.md",
+      "label": "Plugin lifecycle",
+      "sidebar": "en-develop",
+      "section": "Framework",
+      "order": 1,
+      "sourceAliases": [
+        "docs/user/develop/framework",
+        "docs/user/develop/framework/index.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/develop/framework/service.md",
+      "route": "en/develop/framework/service.md",
+      "label": "Services and dependencies",
+      "sidebar": "en-develop",
+      "section": "Framework",
+      "order": 2,
+      "sourceAliases": [
+        "docs/user/develop/framework/service.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/develop/framework/events.md",
+      "route": "en/develop/framework/events.md",
+      "label": "Event system",
+      "sidebar": "en-develop",
+      "section": "Framework",
+      "order": 3,
+      "sourceAliases": [
+        "docs/user/develop/framework/events.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/develop/practice/index.md",
+      "route": "en/develop/practice/index.md",
+      "label": "Capability layering",
+      "sidebar": "en-develop",
+      "section": "Practice",
+      "order": 1,
+      "sourceAliases": [
+        "docs/user/develop/practice",
+        "docs/user/develop/practice/index.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/develop/practice/llm-adapter.md",
+      "route": "en/develop/practice/llm-adapter.md",
+      "label": "LLM adapter",
+      "sidebar": "en-develop",
+      "section": "Practice",
+      "order": 2,
+      "sourceAliases": [
+        "docs/user/develop/practice/llm-adapter.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/user/develop/practice/dynamic-cordis.md",
+      "route": "en/develop/practice/dynamic-cordis.md",
+      "label": "Persistent Harness plugins",
+      "sidebar": "en-develop",
+      "section": "Practice",
+      "order": 3,
+      "sourceAliases": [
+        "docs/user/develop/practice/dynamic-cordis.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-tutorial/index.md",
+      "route": "en/develop/cordis-tutorial/index.md",
+      "label": "Overview",
+      "sidebar": "en-develop",
+      "section": "Cordis framework tutorial",
+      "order": 0,
+      "sourceAliases": [
+        "docs/cordis-tutorial",
+        "docs/cordis-tutorial/index.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-tutorial/01-first-plugin.md",
+      "route": "en/develop/cordis-tutorial/01-first-plugin.md",
+      "label": "1. Your first plugin",
+      "sidebar": "en-develop",
+      "section": "Cordis framework tutorial",
+      "order": 1,
+      "sourceAliases": [
+        "docs/cordis-tutorial/01-first-plugin.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-tutorial/02-lifecycle-and-effects.md",
+      "route": "en/develop/cordis-tutorial/02-lifecycle-and-effects.md",
+      "label": "2. Lifecycle and effects",
+      "sidebar": "en-develop",
+      "section": "Cordis framework tutorial",
+      "order": 2,
+      "sourceAliases": [
+        "docs/cordis-tutorial/02-lifecycle-and-effects.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-tutorial/03-services.md",
+      "route": "en/develop/cordis-tutorial/03-services.md",
+      "label": "3. Services",
+      "sidebar": "en-develop",
+      "section": "Cordis framework tutorial",
+      "order": 3,
+      "sourceAliases": [
+        "docs/cordis-tutorial/03-services.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-tutorial/04-events.md",
+      "route": "en/develop/cordis-tutorial/04-events.md",
+      "label": "4. Events",
+      "sidebar": "en-develop",
+      "section": "Cordis framework tutorial",
+      "order": 4,
+      "sourceAliases": [
+        "docs/cordis-tutorial/04-events.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-tutorial/05-config.md",
+      "route": "en/develop/cordis-tutorial/05-config.md",
+      "label": "5. Configuration",
+      "sidebar": "en-develop",
+      "section": "Cordis framework tutorial",
+      "order": 5,
+      "sourceAliases": [
+        "docs/cordis-tutorial/05-config.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-tutorial/06-composition-and-hmr.md",
+      "route": "en/develop/cordis-tutorial/06-composition-and-hmr.md",
+      "label": "6. Composition and HMR",
+      "sidebar": "en-develop",
+      "section": "Cordis framework tutorial",
+      "order": 6,
+      "sourceAliases": [
+        "docs/cordis-tutorial/06-composition-and-hmr.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-tutorial/07-into-the-harness.md",
+      "route": "en/develop/cordis-tutorial/07-into-the-harness.md",
+      "label": "7. Into the harness",
+      "sidebar": "en-develop",
+      "section": "Cordis framework tutorial",
+      "order": 7,
+      "sourceAliases": [
+        "docs/cordis-tutorial/07-into-the-harness.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-primer.md",
+      "route": "en/reference/cordis-primer.md",
+      "label": "Cordis primer",
+      "sidebar": "en-reference",
+      "section": "Concepts",
+      "order": 1,
+      "sourceAliases": [
+        "docs/cordis-primer.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/README.md",
+      "route": "en/reference/subsystems/index.md",
+      "label": "Subsystems",
+      "sidebar": "en-reference",
+      "section": "Overview",
+      "order": 0,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems",
+        "docs/subsystems/README.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/core.md",
+      "route": "en/reference/subsystems/core.md",
+      "label": "Core",
+      "sidebar": "en-reference",
+      "section": "Core and scopes",
+      "order": 0,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/core.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/scope.md",
+      "route": "en/reference/subsystems/scope.md",
+      "label": "Scopes",
+      "sidebar": "en-reference",
+      "section": "Core and scopes",
+      "order": 1,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/scope.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/session.md",
+      "route": "en/reference/subsystems/session.md",
+      "label": "Sessions",
+      "sidebar": "en-reference",
+      "section": "Sessions and persistence",
+      "order": 0,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/session.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/session-query.md",
+      "route": "en/reference/subsystems/session-query.md",
+      "label": "Session query",
+      "sidebar": "en-reference",
+      "section": "Sessions and persistence",
+      "order": 1,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/session-query.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/session-reference.md",
+      "route": "en/reference/subsystems/session-reference.md",
+      "label": "Session references",
+      "sidebar": "en-reference",
+      "section": "Sessions and persistence",
+      "order": 2,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/session-reference.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/session-title.md",
+      "route": "en/reference/subsystems/session-title.md",
+      "label": "Session titles",
+      "sidebar": "en-reference",
+      "section": "Sessions and persistence",
+      "order": 3,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/session-title.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/session-projection.md",
+      "route": "en/reference/subsystems/session-projection.md",
+      "label": "Session projections",
+      "sidebar": "en-reference",
+      "section": "Sessions and persistence",
+      "order": 4,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/session-projection.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/persistence.md",
+      "route": "en/reference/subsystems/persistence.md",
+      "label": "Session persistence",
+      "sidebar": "en-reference",
+      "section": "Sessions and persistence",
+      "order": 5,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/persistence.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/spill.md",
+      "route": "en/reference/subsystems/spill.md",
+      "label": "Spill storage",
+      "sidebar": "en-reference",
+      "section": "Sessions and persistence",
+      "order": 6,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/spill.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/session-telemetry.md",
+      "route": "en/reference/subsystems/session-telemetry.md",
+      "label": "SessionTelemetryBackend",
+      "sidebar": "en-reference",
+      "section": "Sessions and persistence",
+      "order": 7,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/session-telemetry.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/llm-streaming.md",
+      "route": "en/reference/subsystems/llm-streaming.md",
+      "label": "LLM streaming",
+      "sidebar": "en-reference",
+      "section": "Model and context",
+      "order": 0,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/llm-streaming.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/token-meter.md",
+      "route": "en/reference/subsystems/token-meter.md",
+      "label": "Token metering",
+      "sidebar": "en-reference",
+      "section": "Model and context",
+      "order": 1,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/token-meter.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/system-prompt.md",
+      "route": "en/reference/subsystems/system-prompt.md",
+      "label": "System prompts",
+      "sidebar": "en-reference",
+      "section": "Model and context",
+      "order": 2,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/system-prompt.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/compaction.md",
+      "route": "en/reference/subsystems/compaction.md",
+      "label": "Compaction",
+      "sidebar": "en-reference",
+      "section": "Model and context",
+      "order": 3,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/compaction.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/tools.md",
+      "route": "en/reference/subsystems/tools.md",
+      "label": "Tools",
+      "sidebar": "en-reference",
+      "section": "Execution and tools",
+      "order": 0,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/tools.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/shell.md",
+      "route": "en/reference/subsystems/shell.md",
+      "label": "Bash execution",
+      "sidebar": "en-reference",
+      "section": "Execution and tools",
+      "order": 1,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/shell.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/subprocess.md",
+      "route": "en/reference/subsystems/subprocess.md",
+      "label": "Subprocesses",
+      "sidebar": "en-reference",
+      "section": "Execution and tools",
+      "order": 2,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/subprocess.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/terminal.md",
+      "route": "en/reference/subsystems/terminal.md",
+      "label": "PTY sessions",
+      "sidebar": "en-reference",
+      "section": "Execution and tools",
+      "order": 3,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/terminal.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/jobs.md",
+      "route": "en/reference/subsystems/jobs.md",
+      "label": "Background jobs",
+      "sidebar": "en-reference",
+      "section": "Execution and tools",
+      "order": 4,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/jobs.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/filesystem.md",
+      "route": "en/reference/subsystems/filesystem.md",
+      "label": "Filesystem",
+      "sidebar": "en-reference",
+      "section": "Execution and tools",
+      "order": 5,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/filesystem.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/lsp.md",
+      "route": "en/reference/subsystems/lsp.md",
+      "label": "LSP navigation",
+      "sidebar": "en-reference",
+      "section": "Execution and tools",
+      "order": 6,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/lsp.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/ptc-runtime.md",
+      "route": "en/reference/subsystems/ptc-runtime.md",
+      "label": "PTC runtime",
+      "sidebar": "en-reference",
+      "section": "Execution and tools",
+      "order": 7,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/ptc-runtime.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/web.md",
+      "route": "en/reference/subsystems/web.md",
+      "label": "Web access",
+      "sidebar": "en-reference",
+      "section": "Execution and tools",
+      "order": 8,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/web.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/skills.md",
+      "route": "en/reference/subsystems/skills.md",
+      "label": "Skills",
+      "sidebar": "en-reference",
+      "section": "Execution and tools",
+      "order": 9,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/skills.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/workflow.md",
+      "route": "en/reference/subsystems/workflow.md",
+      "label": "Workflows",
+      "sidebar": "en-reference",
+      "section": "Execution and tools",
+      "order": 10,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/workflow.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/subagent.md",
+      "route": "en/reference/subsystems/subagent.md",
+      "label": "Subagents",
+      "sidebar": "en-reference",
+      "section": "Execution and tools",
+      "order": 11,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/subagent.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/approval.md",
+      "route": "en/reference/subsystems/approval.md",
+      "label": "Approvals",
+      "sidebar": "en-reference",
+      "section": "Policy and interaction",
+      "order": 0,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/approval.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/permission-presets.md",
+      "route": "en/reference/subsystems/permission-presets.md",
+      "label": "Permission presets",
+      "sidebar": "en-reference",
+      "section": "Policy and interaction",
+      "order": 1,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/permission-presets.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/sandbox.md",
+      "route": "en/reference/subsystems/sandbox.md",
+      "label": "Sandboxing",
+      "sidebar": "en-reference",
+      "section": "Policy and interaction",
+      "order": 2,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/sandbox.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/plan.md",
+      "route": "en/reference/subsystems/plan.md",
+      "label": "Plan mode",
+      "sidebar": "en-reference",
+      "section": "Policy and interaction",
+      "order": 3,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/plan.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/user-questions.md",
+      "route": "en/reference/subsystems/user-questions.md",
+      "label": "User interaction",
+      "sidebar": "en-reference",
+      "section": "Policy and interaction",
+      "order": 4,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/user-questions.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/commands.md",
+      "route": "en/reference/subsystems/commands.md",
+      "label": "Human commands",
+      "sidebar": "en-reference",
+      "section": "Policy and interaction",
+      "order": 5,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/commands.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/goal.md",
+      "route": "en/reference/subsystems/goal.md",
+      "label": "Goals",
+      "sidebar": "en-reference",
+      "section": "Policy and interaction",
+      "order": 6,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/goal.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/schedule.md",
+      "route": "en/reference/subsystems/schedule.md",
+      "label": "Scheduled reminders",
+      "sidebar": "en-reference",
+      "section": "Policy and interaction",
+      "order": 7,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/schedule.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/web-server.md",
+      "route": "en/reference/subsystems/web-server.md",
+      "label": "HTTP server",
+      "sidebar": "en-reference",
+      "section": "Platform and access",
+      "order": 0,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/web-server.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/web-client.md",
+      "route": "en/reference/subsystems/web-client.md",
+      "label": "Web Client architecture",
+      "sidebar": "en-reference",
+      "section": "Platform and access",
+      "order": 1,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/web-client.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/client-modules.md",
+      "route": "en/reference/subsystems/client-modules.md",
+      "label": "Client modules",
+      "sidebar": "en-reference",
+      "section": "Platform and access",
+      "order": 2,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/client-modules.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/slots.md",
+      "route": "en/reference/subsystems/slots.md",
+      "label": "Client slots",
+      "sidebar": "en-reference",
+      "section": "Platform and access",
+      "order": 3,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/slots.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/client-resources.md",
+      "route": "en/reference/subsystems/client-resources.md",
+      "label": "Client resources",
+      "sidebar": "en-reference",
+      "section": "Platform and access",
+      "order": 4,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/client-resources.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/sidebar-right.md",
+      "route": "en/reference/subsystems/sidebar-right.md",
+      "label": "Right Sidebar",
+      "sidebar": "en-reference",
+      "section": "Platform and access",
+      "order": 5,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/sidebar-right.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/conversation.md",
+      "route": "en/reference/subsystems/conversation.md",
+      "label": "Conversation assembly",
+      "sidebar": "en-reference",
+      "section": "Platform and access",
+      "order": 6,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/conversation.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/typert.md",
+      "route": "en/reference/subsystems/typert.md",
+      "label": "Typert",
+      "sidebar": "en-reference",
+      "section": "Platform and access",
+      "order": 7,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/typert.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/storage.md",
+      "route": "en/reference/subsystems/storage.md",
+      "label": "Storage",
+      "sidebar": "en-reference",
+      "section": "Platform and access",
+      "order": 8,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/storage.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/workspace.md",
+      "route": "en/reference/subsystems/workspace.md",
+      "label": "Workspaces",
+      "sidebar": "en-reference",
+      "section": "Platform and access",
+      "order": 9,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/workspace.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/settings.md",
+      "route": "en/reference/subsystems/settings.md",
+      "label": "User settings",
+      "sidebar": "en-reference",
+      "section": "Platform and access",
+      "order": 10,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/settings.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/subsystems/credentials.md",
+      "route": "en/reference/subsystems/credentials.md",
+      "label": "User credentials",
+      "sidebar": "en-reference",
+      "section": "Platform and access",
+      "order": 11,
+      "outline": [
+        2,
+        3
+      ],
+      "sourceAliases": [
+        "docs/subsystems/credentials.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/architecture.md",
+      "route": "en/reference/index.md",
+      "label": "Architecture",
+      "sidebar": "en-reference",
+      "section": "Concepts",
+      "order": 0,
+      "sourceAliases": [
+        "docs/architecture.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/capability-seams.md",
+      "route": "en/reference/capability-seams.md",
+      "label": "Capability services",
+      "sidebar": "en-reference",
+      "section": "Concepts",
+      "order": 2,
+      "sourceAliases": [
+        "docs/capability-seams.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/agent-lifecycle.md",
+      "route": "en/reference/agent-lifecycle.md",
+      "label": "Agent lifecycle",
+      "sidebar": "en-reference",
+      "section": "Concepts",
+      "order": 3,
+      "sourceAliases": [
+        "docs/agent-lifecycle.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/tool-execution-pipeline.md",
+      "route": "en/reference/tool-execution-pipeline.md",
+      "label": "Tool execution",
+      "sidebar": "en-reference",
+      "section": "Concepts",
+      "order": 4,
+      "sourceAliases": [
+        "docs/tool-execution-pipeline.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/api-gateway.md",
+      "route": "en/reference/api-gateway.md",
+      "label": "API Gateway",
+      "sidebar": "en-reference",
+      "section": "Concepts",
+      "order": 5,
+      "sourceAliases": [
+        "docs/api-gateway.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/config-catalog.md",
+      "route": "en/reference/config-catalog.md",
+      "label": "Plugin configuration",
+      "sidebar": "en-reference",
+      "section": "Generated reference",
+      "order": 0,
+      "sourceAliases": [
+        "docs/config-catalog.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/tool-catalog.md",
+      "route": "en/reference/tool-catalog.md",
+      "label": "Tool schemas",
+      "sidebar": "en-reference",
+      "section": "Generated reference",
+      "order": 1,
+      "sourceAliases": [
+        "docs/tool-catalog.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/persistence-catalog.md",
+      "route": "en/reference/persistence-catalog.md",
+      "label": "Persistence events",
+      "sidebar": "en-reference",
+      "section": "Generated reference",
+      "order": 2,
+      "outline": "deep",
+      "sourceAliases": [
+        "docs/persistence-catalog.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/experimental-persistence-catalog.md",
+      "route": "en/reference/experimental-persistence-catalog.md",
+      "label": "Experimental persistence",
+      "sidebar": "en-reference",
+      "section": "Generated reference",
+      "order": 3,
+      "sourceAliases": [
+        "docs/experimental-persistence-catalog.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-api/context.md",
+      "route": "en/reference/cordis-api/context.md",
+      "label": "Context",
+      "sidebar": "en-reference",
+      "section": "Cordis Core API",
+      "order": 0,
+      "sourceAliases": [
+        "docs/cordis-api/context.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-api/events.md",
+      "route": "en/reference/cordis-api/events.md",
+      "label": "Events",
+      "sidebar": "en-reference",
+      "section": "Cordis Core API",
+      "order": 1,
+      "sourceAliases": [
+        "docs/cordis-api/events.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-api/fiber.md",
+      "route": "en/reference/cordis-api/fiber.md",
+      "label": "Fiber",
+      "sidebar": "en-reference",
+      "section": "Cordis Core API",
+      "order": 2,
+      "sourceAliases": [
+        "docs/cordis-api/fiber.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-api/registry.md",
+      "route": "en/reference/cordis-api/registry.md",
+      "label": "Plugin Registry",
+      "sidebar": "en-reference",
+      "section": "Cordis Core API",
+      "order": 3,
+      "sourceAliases": [
+        "docs/cordis-api/registry.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-api/service.md",
+      "route": "en/reference/cordis-api/service.md",
+      "label": "Service",
+      "sidebar": "en-reference",
+      "section": "Cordis Core API",
+      "order": 4,
+      "sourceAliases": [
+        "docs/cordis-api/service.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cordis-api/inherited.md",
+      "route": "en/reference/cordis-api/inherited.md",
+      "label": "Inherited surface",
+      "sidebar": "en-reference",
+      "section": "Cordis Core API",
+      "order": 5
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cookbook/adding-a-package.md",
+      "route": "en/reference/cookbook/adding-a-package.md",
+      "label": "Adding a package",
+      "sidebar": "en-reference",
+      "section": "Cookbook",
+      "order": 0,
+      "sourceAliases": [
+        "docs/cookbook/adding-a-package.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cookbook/adding-a-tool.md",
+      "route": "en/reference/cookbook/adding-a-tool.md",
+      "label": "Adding a tool",
+      "sidebar": "en-reference",
+      "section": "Cookbook",
+      "order": 1,
+      "sourceAliases": [
+        "docs/cookbook/adding-a-tool.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cookbook/adding-an-llm-adapter.md",
+      "route": "en/reference/cookbook/adding-an-llm-adapter.md",
+      "label": "Adding an LLM adapter",
+      "sidebar": "en-reference",
+      "section": "Cookbook",
+      "order": 2,
+      "sourceAliases": [
+        "docs/cookbook/adding-an-llm-adapter.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cookbook/adding-a-settings-card.md",
+      "route": "en/reference/cookbook/adding-a-settings-card.md",
+      "label": "Adding a settings page",
+      "sidebar": "en-reference",
+      "section": "Cookbook",
+      "order": 3,
+      "sourceAliases": [
+        "docs/cookbook/adding-a-settings-card.zh.md"
+      ]
+    },
+    {
+      "locale": "en",
+      "contentLocale": "en-US",
+      "source": "docs/cookbook/extension-cookbook.md",
+      "route": "en/reference/cookbook/extension-cookbook.md",
+      "label": "Extension patterns",
+      "sidebar": "en-reference",
+      "section": "Cookbook",
+      "order": 4,
+      "sourceAliases": [
+        "docs/cookbook/extension-cookbook.zh.md"
+      ]
+    }
+  ],
+  "sections": {
+    "root": [
+      {
+        "label": "가이드"
+      },
+      {
+        "label": "SDK"
+      },
+      {
+        "label": "자동화"
+      },
+      {
+        "label": "통합"
+      },
+      {
+        "label": "기본"
+      },
+      {
+        "label": "프레임워크"
+      },
+      {
+        "label": "실전"
+      },
+      {
+        "label": "Cordis 프레임워크 튜토리얼"
+      },
+      {
+        "label": "개념"
+      },
+      {
+        "label": "생성 참조"
+      },
+      {
+        "label": "Cordis 핵심 API"
+      },
+      {
+        "label": "개발 매뉴얼"
+      },
+      {
+        "label": "개요"
+      },
+      {
+        "label": "코어와 스코프",
+        "collapsed": true
+      },
+      {
+        "label": "세션과 영속성",
+        "collapsed": true
+      },
+      {
+        "label": "모델과 컨텍스트",
+        "collapsed": true
+      },
+      {
+        "label": "실행과 도구",
+        "collapsed": true
+      },
+      {
+        "label": "정책과 상호작용",
+        "collapsed": true
+      },
+      {
+        "label": "플랫폼과 접근",
+        "collapsed": true
+      }
+    ],
+    "en": [
+      {
+        "label": "Guide"
+      },
+      {
+        "label": "SDK"
+      },
+      {
+        "label": "Automation"
+      },
+      {
+        "label": "Integrations"
+      },
+      {
+        "label": "Basics"
+      },
+      {
+        "label": "Framework"
+      },
+      {
+        "label": "Practice"
+      },
+      {
+        "label": "Cordis framework tutorial"
+      },
+      {
+        "label": "Concepts"
+      },
+      {
+        "label": "Generated reference"
+      },
+      {
+        "label": "Cordis Core API"
+      },
+      {
+        "label": "Cookbook"
+      },
+      {
+        "label": "Overview"
+      },
+      {
+        "label": "Core and scopes",
+        "collapsed": true
+      },
+      {
+        "label": "Sessions and persistence",
+        "collapsed": true
+      },
+      {
+        "label": "Model and context",
+        "collapsed": true
+      },
+      {
+        "label": "Execution and tools",
+        "collapsed": true
+      },
+      {
+        "label": "Policy and interaction",
+        "collapsed": true
+      },
+      {
+        "label": "Platform and access",
+        "collapsed": true
+      }
+    ]
+  }
+}

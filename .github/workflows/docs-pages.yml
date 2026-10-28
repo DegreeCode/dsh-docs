@@ -1,0 +1,147 @@
+# Publish the documentation website to GitHub Pages.
+#
+# This repository holds only the documentation and the VitePress site that
+# publishes it. The Markdown stays the source of truth for a separate harness
+# checkout, so the build reads that repository's identity from configuration
+# instead of this one:
+#
+# - DOCS_REPOSITORY_URL names the repository source, image, and edit links
+#   point at.
+# - DOCS_REPOSITORY_REF names the branch those links pin.
+# - DOCS_ONLY_CHECKOUT lets a link into `packages/` or `.agents/` resolve to
+#   that repository instead of failing, because this checkout does not carry
+#   the source tree the documentation describes.
+#
+# The hosting repository must enable Pages with "GitHub Actions" as the source
+# (Settings -> Pages -> Build and deployment -> Source). Until it does, the
+# build still runs and uploads the site artifact; only the deploy job is
+# skipped, so a missing Pages setting does not redden the run.
+#
+# A manual run may override the site base path or build the artifact without
+# publishing it.
+name: Deploy documentation
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+    inputs:
+      base_path:
+        description: Site base path; defaults to the GitHub Pages base path.
+        required: false
+        type: string
+      deploy:
+        description: Publish to GitHub Pages; disable to only build the artifact.
+        required: false
+        default: true
+        type: boolean
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  PRIMARY_NODE_VERSION: '24'
+  DOCS_ONLY_CHECKOUT: 'true'
+  DOCS_REPOSITORY_URL: ${{ vars.DOCS_REPOSITORY_URL || 'https://github.com/DegreeCode/deepseek-harness' }}
+  DOCS_REPOSITORY_REF: ${{ vars.DOCS_REPOSITORY_REF || 'next' }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    outputs:
+      # Empty when Pages is not enabled; the deploy job then stays skipped
+      # instead of failing on a site that does not exist yet.
+      pages_ready: ${{ steps.pages.outcome == 'success' }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: pnpm/action-setup@v5.0.0
+
+      # `cache: pnpm` needs a lockfile to key on, and setup-node fails the job
+      # outright when it finds none. This repository commits no lockfile yet, so
+      # caching stays off until one exists.
+      - uses: actions/setup-node@v7.0.0
+        with:
+          node-version: ${{ env.PRIMARY_NODE_VERSION }}
+          cache: ${{ hashFiles('pnpm-lock.yaml') != '' && 'pnpm' || '' }}
+
+      # Restore `--frozen-lockfile` together with the first committed lockfile.
+      - name: Install
+        run: pnpm install
+
+      # Links and paragraph wrapping are checked against this checkout: a target
+      # outside `docs/` and `website/` belongs to the source repository the
+      # documentation describes, so only the carried trees are judged.
+      - name: Check Markdown links
+        run: pnpm run verify-md-links
+
+      - name: Check paragraph wrapping
+        run: pnpm run verify-md-wrap
+
+      # A repository without Pages enabled answers this step with an error. The
+      # artifact is still worth building, so the failure is absorbed here and
+      # only the deploy job reads the outcome.
+      - name: Configure Pages
+        id: pages
+        if: ${{ github.event_name == 'push' || inputs.deploy }}
+        continue-on-error: true
+        uses: actions/configure-pages@v6
+
+      # An explicit dispatch input wins, then the Pages base path, then '/'; the
+      # trailing slash is what VitePress requires.
+      - name: Resolve site base path
+        id: base
+        env:
+          REQUESTED_BASE: ${{ inputs.base_path }}
+          PAGES_BASE: ${{ steps.pages.outputs.base_path }}
+        run: |
+          base="${REQUESTED_BASE:-${PAGES_BASE:-/}}"
+          case "$base" in
+            */) ;;
+            *) base="$base/" ;;
+          esac
+          echo "path=$base" >> "$GITHUB_OUTPUT"
+
+      - name: Build documentation
+        env:
+          DOCS_BASE: ${{ steps.base.outputs.path }}
+        run: pnpm run docs:build
+
+      # Downloadable even when Pages is not enabled or the run only builds.
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: docs-site
+          path: website/.dist
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload Pages artifact
+        if: ${{ steps.pages.outcome == 'success' }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: website/.dist
+
+  deploy:
+    needs: build
+    if: ${{ needs.build.outputs.pages_ready == 'true' }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

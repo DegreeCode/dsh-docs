@@ -1,0 +1,43 @@
+{
+  "name": "dsh-docs",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Documentation site for DeepSeek Harness, including the Korean renderings.",
+  "packageManager": "pnpm@11.28.5",
+  "engines": {
+    "node": ">=24.9"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev website --host 127.0.0.1 --port 5173",
+    "docs:build": "tsx website/build.ts && tsx scripts/verify-doc-site-fragments.ts",
+    "docs:build:mpa": "tsx website/build.ts --mpa && tsx scripts/verify-doc-site-fragments.ts",
+    "docs:preview": "vitepress preview website --host 127.0.0.1 --port 4173",
+    "verify-doc-site-fragments": "tsx scripts/verify-doc-site-fragments.ts",
+    "typecheck": "tsc --noEmit",
+    "verify-md-links": "tsx scripts/verify-md-links.ts",
+    "verify-md-wrap": "tsx scripts/verify-md-wrap.ts",
+    "verify": "pnpm run verify-md-links && pnpm run verify-md-wrap && pnpm run docs:build"
+  },
+  "devDependencies": {
+    "@braintree/sanitize-url": "7.1.2",
+    "@panzoom/panzoom": "4.6.2",
+    "@types/mdast": "^4.0.4",
+    "@types/node": "^22.20.1",
+    "cytoscape": "3.34.2",
+    "cytoscape-cose-bilkent": "4.1.0",
+    "dayjs": "1.11.23",
+    "debug": "4.4.3",
+    "jsdom": "29.1.1",
+    "mdast-util-from-markdown": "^2.0.3",
+    "mdast-util-gfm": "^3.1.0",
+    "mermaid": "11.17.2",
+    "micromark-extension-gfm": "^3.0.0",
+    "tsx": "^4.23.13",
+    "typescript": "^6.0.3",
+    "vite": "^5.4.21",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17",
+    "vue": "3.5.42"
+  }
+}
